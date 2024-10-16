@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bike-avail-forecast"
+version = "1.0.0"
+description = "Predicting bike sharing demand"
+authors = ["Priya Biswas"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+pydantic = "2.7.4"
+plotly = "5.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
